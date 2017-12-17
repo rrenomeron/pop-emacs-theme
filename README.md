@@ -11,6 +11,8 @@ The initial cut was done with Martin Haesler's
 [ThemeCreator](https://github.com/mswift42/themecreator), and modified
 from there.
 
+This requires the themeing support in Emacs 24 and later, so far I've
+tested it only against Emacs 25.2.2 in Ubuntu 17.10.
 
 ## Installation
 
@@ -26,3 +28,8 @@ Download `pop-theme.el` to the directory `~/.emacs.d/themes/`. Add this to your
 Now you can load the theme with the interactive function `load-theme` like this:
 
 `M-x load-theme RET pop`
+
+## TODO
+
+* Add missing faces for popular languages to have parity with Zenburn's coverage
+
